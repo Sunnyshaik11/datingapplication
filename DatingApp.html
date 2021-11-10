@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="Survey Information"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Dating App</title>
+    <link rel="stylesheet" href="Dating(1).css" href="dating.jpeg" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <div id="outside">
+      <form id="Survey-form" action="/my-handling-form-page" method="post">
+        <h1>Application For permission to date my daughter</h1>
+        <p id="description">
+          <b>Note:</b>Application Detials Should be Real And Trustable
+        </p>
+        <div>
+          <lable id="Name_label" for="name">Name:</lable>
+          <input
+            type="text"
+            required
+            id="name"
+            name="user_name"
+            placeholder="Enter Your Full Name"
+          />
+        </div>
+        <br />
+        <div>
+          <label id="email_label" for="email">Email:</label>
+          <input
+            type="email"
+            required
+            id="email"
+            name="Email_address"
+            placeholder="Enter Your Mail address"
+          />
+        </div>
+        <br />
+        <div>
+          <label id="phone_number" for="Phone_Number">Phone/Telephone:</label>
+          <input
+            type="tel"
+            required
+            id="Phone/Telephone"
+            name="Phone/Telephone"
+            placeholder="Enter YOur Phone/Telephone Number"
+          />
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <p>
+                <input type="radio" name="Gender" value="Male" checked>
+                Male<br>
+                <input type="radio" name="Gender" value="Female">
+                Female<br>
+                <input type="radio" name="Gender" value="Others">
+                Other<br>
+            </p>
+        </div>
+        <label for="Date-label">Date Of Proposed Outing:</label>
+        <input type="date" name="Birthday">
+        </div>
+        <br>
+        <fieldset>
+            <label for="Gender"><i>CHECK ALL THAT APPLY</i></label>
+            <P>
+                <input type="checkbox" name="tattoo" value="tattoo">I have tattoos and/or piercing<br>
+                <input type="checkbox" name="Elder" value="Elder">I am more than 2 years older than my daughter<br>
+                <input type="checkbox" name="Car" value="Cars">I own a Panel Van or Ferrari<br>
+                <input type="checkbox" name="Work" value="Working">I Work Full Time<br>
+                <input type="checkbox" name="Parents" value="Rich">My Parents are Rich Enough<br>
+                <input type="checkbox" name="Date" value="Dating">Is the date at a private or public location<br>
+            </P>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div>
+                <label for="Education">Education Level Completed</label>
+                <select id="dropdown">
+                    <option value="University">University</option>
+                    <option value="College">College</option>
+                    <option value="Secondary">High School</option>
+                    <option value="None">None</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Essay</legend>
+            <div>
+                <label for="Message"></label>
+                <p>In 100 Words..! Explain Why you want to date my daughter</p>
+                <textarea id="message" name="User_name" rows="6" cols="60" placeholder="Enter Text Here"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="Message">Please Provide 1 contact point for your reference</label><br>
+                <textarea id="message2" name="User_message" rows="6" cols="10" placeholder="Enter the contact detials"></textarea>
+            </div><br>
+            <p>
+                Option to upload the Bank Statement:
+            </p>
+            <button>Attach File</button>
+        </fieldset>
+        <br>
+        <div id="SubmitButton">
+            <button type="submit" id="submit">Submit Your Application</button>
+        </div>
+        <br>
+      </form>
+    </div>
+  </body>
+</html>

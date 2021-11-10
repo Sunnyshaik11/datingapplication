@@ -1,0 +1,81 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-display: white;
+}
+#outside {
+  background-color: lightcoral;
+  background-image: url(dating.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+h1 {
+  font: 1.5em;
+  text-align: center;
+  text-decoration: lightseagreen;
+  text-transform: capitalize;
+  background-color: mediumpurple;
+  background-size: cover;
+  position: relative;
+}
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid#ccc;
+  border-radius: 1em;
+}
+#survey_form {
+  background-color: navajowhite;
+}
+fieldset {
+  border: 1px solid lightskyblue;
+  margin: 10px;
+}
+legend {
+  font-weight: 700;
+}
+#number {
+  width: 150px;
+}
+div + div {
+  margin: 1em;
+  background-color: lightskyblue;
+  background: lightslategray;
+}
+*/ input,
+textarea {
+  width: 200px;
+  border: 1px solid#999;
+}
+input:focus,
+textarea:focus {
+  border-color: lightslategray;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+.button {
+  padding-left: 90px;
+}
+button {
+  margin: 0.5rem;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+#submitbutton {
+  display: flex;
+  justify-content: center;
+}
